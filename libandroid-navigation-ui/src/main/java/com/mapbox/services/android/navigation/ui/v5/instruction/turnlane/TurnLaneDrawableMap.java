@@ -11,9 +11,9 @@ import static com.mapbox.services.android.navigation.ui.v5.instruction.turnlane.
 import static com.mapbox.services.android.navigation.ui.v5.instruction.turnlane.TurnLaneViewData.DRAW_LANE_STRAIGHT_ONLY;
 import static com.mapbox.services.android.navigation.ui.v5.instruction.turnlane.TurnLaneViewData.DRAW_LANE_UTURN;
 
-class TurnLaneDrawableMap extends HashMap<String, Integer> {
+public class TurnLaneDrawableMap extends HashMap<String, Integer> {
 
-  TurnLaneDrawableMap() {
+  public TurnLaneDrawableMap() {
     put(DRAW_LANE_STRAIGHT, R.drawable.ic_lane_straight);
     put(DRAW_LANE_UTURN, R.drawable.ic_lane_uturn);
     put(DRAW_LANE_RIGHT, R.drawable.ic_lane_right);
